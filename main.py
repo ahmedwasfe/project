@@ -67,3 +67,12 @@ num1, num2 = 120, 15.5
 
 print(float(num1))
 print(int(num2))
+
+list1 = [4,5,8]
+list2 = [7,5]
+# list1.get(index).update
+list1[2] = 10
+
+# list1.append(list2[0:])
+list1.insert(list2)
+print(list1)
